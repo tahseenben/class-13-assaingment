@@ -16,10 +16,15 @@ header{
 }
 .navbar-brand{
     margin-right: 0px !important;
-    right: 43%;
-    transform: translate(43%, 10px);
+    right: 50%;
+    transform: translate(50%, 10px);
     top: 10px;
     position: absolute;
+    width: 180px;
+}
+.navbar-brand img{
+	
+max-width: 100%;
 }
 .nav-item{
     font-size: 22px;
