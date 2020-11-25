@@ -1,0 +1,175 @@
+*{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Saira', sans-serif !important;
+	background-color: #F3F0EB !important;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none !important;
+}
+header{
+	background-color: #F3F0EB !important;
+}
+.navbar-brand{
+    margin-right: 0px !important;
+    right: 43%;
+    transform: translate(43%, 10px);
+    top: 10px;
+    position: absolute;
+}
+.nav-item{
+    font-size: 22px;
+    color: #241f21;
+    padding: 10px 0px;
+}
+.nav-item .nav-link{}
+.nav-item .nav-link a{}
+.nav-item .nav-link span{
+    height: 2px;
+    width: 0%;
+    display: block;
+    background: #241f21;
+    padding: 0 !important;
+    margin-top: 2px;
+    transition: all 0.6s;
+}
+.nav-item .nav-link:hover span{
+	width: 100%;
+}
+
+.logo{
+}
+.logo a{}
+.logo a img{
+    width: 50%;
+}
+.userpanel {
+}
+.userpanel li{
+    padding-left: 30px;
+}
+.userpanel li a{
+    color: #252022;
+}
+.userpanel li a i{
+	transition-duration: .3s;
+}
+.userpanel li a i:hover{
+    color: #241f21ba;
+}
+
+
+
+.announcement-section{}
+.announcement{
+    background: #333333;
+    color: #D4BE84;
+    padding: 6px;
+}
+.announcement span{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.banner-section{
+	background-image: url(../images/bannerbg.jpg);
+	background-blend-mode: multiply;
+	background-color: #0000008c;
+	color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 150px 0px;
+}
+.banner{}
+.banner h1{
+	padding: 10px;
+	font-size: 34px;
+	font-weight: 400;
+}
+
+
+.productgrid{
+    padding: 50px 0px;
+}
+.product{}
+.product a{}
+.product a:hover{}
+.product .imgholder{
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.product .imgholder img{
+    object-fit: contain;
+}
+.product .imgholder img:first-child{position: absolute;
+    bottom: 0;right: 0;
+    z-index: 50;
+    transition: all 0.5s;
+}
+.product .imgholder img:nth-child(2){position: absolute;
+    right: 0;
+    bottom: -100%;
+    z-index: 60;
+    transition: all 0.5s;
+}
+.product:hover .imgholder img:first-child{
+    bottom: 100%;
+}
+.product:hover .imgholder img:nth-child(2){
+    bottom: 0;
+}
+
+
+
+
+.product .imgholder .onsales h6{
+    background: black;
+    color: #FFF;
+    z-index: 70;
+    position: absolute;
+    padding: 2px 10px;
+    right: 0;
+    top: 0;
+}
+.product .imgholder .qv h6{
+    position: absolute;
+    bottom: -25px;
+    z-index: 99;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    color: #FFF;
+    text-align: center;
+    background: black;
+    padding: 8px 0px;
+    transition: all 0.3s;
+    transition-delay: 0.5s;
+}
+.product:hover .imgholder .qv h6{
+    bottom: 0px;
+    opacity: 10;
+}
+.product .title{
+    display: block;
+    margin-top: 10px;
+}
+span.title {
+    color: #241e21;
+}
+
+span.price {
+    color: #241e21;
+    font-size: 18px;
+}
+.product:hover .title{
+    color: #B56251 !important;
+}
